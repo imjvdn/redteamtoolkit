@@ -4,14 +4,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/imjvdn/redteamtoolkit)
 ![GitHub License](https://img.shields.io/github/license/imjvdn/redteamtoolkit)
 
-## 🌟 Live Demo
-
-Visit the live demo at [https://imjvdn.github.io/redteamtoolkit/](https://imjvdn.github.io/redteamtoolkit/)
-
-**Demo Credentials:**
-- Email: `demo@example.com`
-- Password: `demo`
-
 ## 🚀 Overview
 
 A sophisticated security analysis platform built with React and TypeScript, designed for red team operations and security assessments. This dashboard provides an integrated interface for reconnaissance, brute force operations, security monitoring, and comprehensive reporting.
@@ -133,6 +125,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## 📧 Contact
 
-Jaden Goodwin - [@imjvdn](https://github.com/imjvdn)
+Jadan Morrow - [@imjvdn](https://github.com/imjvdn)
 
 Project Link: [https://github.com/imjvdn/redteamtoolkit](https://github.com/imjvdn/redteamtoolkit)
