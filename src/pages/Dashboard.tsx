@@ -1,5 +1,7 @@
 import React from 'react';
 import { Activity, Shield, Database } from 'lucide-react';
+import { SecurityMetricsChart } from '../components/charts/SecurityMetricsChart';
+import { AttackDistributionChart } from '../components/charts/AttackDistributionChart';
 
 export default function Dashboard() {
   return (
@@ -40,6 +42,11 @@ export default function Dashboard() {
           <p className="mt-2 text-3xl font-bold text-white">94.2%</p>
           <p className="text-sm text-gray-400">Brute force attempts</p>
         </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <SecurityMetricsChart />
+        <AttackDistributionChart />
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
