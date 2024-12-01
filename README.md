@@ -1,37 +1,50 @@
 # Red Team Toolkit Dashboard
 
-## Overview
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/imjvdn/redteamtoolkit/deploy.yml?branch=main)
+![GitHub last commit](https://img.shields.io/github/last-commit/imjvdn/redteamtoolkit)
+![GitHub License](https://img.shields.io/github/license/imjvdn/redteamtoolkit)
+
+## 🌟 Live Demo
+
+Visit the live demo at [https://imjvdn.github.io/redteamtoolkit/](https://imjvdn.github.io/redteamtoolkit/)
+
+**Demo Credentials:**
+- Email: `demo@example.com`
+- Password: `demo`
+
+## 🚀 Overview
 
 A sophisticated security analysis platform built with React and TypeScript, designed for red team operations and security assessments. This dashboard provides an integrated interface for reconnaissance, brute force operations, security monitoring, and comprehensive reporting.
 
-## Core Functionality
+## ✨ Core Features
 
-- Authentication and session management
-- Real-time security metrics visualization
-- Reconnaissance operation management
-- Automated brute force attack simulations
-- Security event monitoring and alerting
-- Comprehensive reporting system
-- Role-based access control
+- 🔐 **Authentication System**
+  - Secure login and session management
+  - Role-based access control
+  - Protected routes and API endpoints
 
-## Technical Architecture
+- 📊 **Dashboard Analytics**
+  - Real-time security metrics visualization
+  - Interactive data charts and graphs
+  - Custom reporting periods
 
-### Frontend Architecture
-- Single Page Application (SPA) built with React 18
-- Static typing and enhanced IDE support via TypeScript
-- State management through Zustand with persistent storage
-- Client-side routing powered by React Router v6
-- Dynamic code splitting and lazy loading for optimal performance
-- Real-time data visualization using Chart.js with TypeScript bindings
+- 🔍 **Security Tools**
+  - Reconnaissance operation management
+  - Automated brute force simulations
+  - Security event monitoring
+  - Comprehensive reporting system
 
-### UI/UX Implementation
-- Responsive design system using Tailwind CSS with custom configurations
-- Component architecture using Headless UI for accessible primitives
-- Custom hooks for shared business logic
-- Lucide React for consistent iconography
-- Dark mode optimized interface
+## 🛠️ Technical Stack
 
-## Project Structure
+- **Frontend Framework**: React 18 with TypeScript
+- **State Management**: Zustand
+- **Routing**: React Router v6
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+- **Deployment**: GitHub Pages
+
+## 📦 Project Structure
 
 ```
 src/
@@ -48,117 +61,78 @@ src/
 │   └── Settings/      # Configuration interface
 ├── stores/             # Zustand state management
 ├── types/              # TypeScript declarations
-├── utils/              # Utility functions
-└── App.tsx             # Application entry point
+└── utils/              # Utility functions
 ```
 
-## Development Setup
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js >= 18.x
-- npm >= 9.x or yarn >= 1.22.x
-- Modern web browser with JavaScript enabled
+
+- Node.js (v18 or higher)
+- npm or yarn
 
 ### Installation
 
-```bash
-# Clone repository
-git clone [repository-url]
-cd redteamtoolkit
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/imjvdn/redteamtoolkit.git
+   cd redteamtoolkit
+   ```
 
-# Install dependencies
-npm install
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
 
-# Start development server
-npm run dev
-```
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-### Development Scripts
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-```bash
-# Development server
-npm run dev
+## 🔄 Development Workflow
 
-# Production build
-npm run build
+1. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
-# Production preview
-npm run preview
+2. Make your changes and commit them:
+   ```bash
+   git add .
+   git commit -m "feat: add your feature"
+   ```
 
-# Linting
-npm run lint
-```
+3. Push to your branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
 
-### Environment Configuration
+4. Create a Pull Request on GitHub
 
-```bash
-# Create .env file
-cp .env.example .env
+## 🚀 Deployment
 
-# Required environment variables
-VITE_API_ENDPOINT=your_api_endpoint
-VITE_AUTH_DOMAIN=your_auth_domain
-```
+The application is automatically deployed to GitHub Pages when changes are pushed to the main branch. The deployment process:
 
-## Technical Dependencies
+1. Builds the application using Vite
+2. Optimizes assets and generates production build
+3. Deploys to GitHub Pages using GitHub Actions
 
-### Core Dependencies
-- react: ^18.3.1
-- react-dom: ^18.3.1
-- react-router-dom: ^6.22.2
-- typescript: ^5.5.3
-- zustand: ^4.5.1
+## 📝 License
 
-### UI Components
-- @headlessui/react: ^1.7.18
-- chart.js: ^4.4.1
-- react-chartjs-2: ^5.2.0
-- lucide-react: ^0.344.0
-- clsx: ^2.1.0
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Development Tools
-- vite: ^5.4.2
-- @vitejs/plugin-react: ^4.3.1
-- eslint: ^9.9.1
-- tailwindcss: ^3.4.1
-- postcss: ^8.4.35
-- autoprefixer: ^10.4.18
+## 🤝 Contributing
 
-## Performance Considerations
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-- Implements code splitting via React.lazy()
-- Optimized bundle size through tree shaking
-- Efficient state management with atomic updates
-- Lazy-loaded routes for improved initial load time
-- Debounced API calls for performance optimization
+## 📧 Contact
 
-## Security Implementation
+Jaden Goodwin - [@imjvdn](https://github.com/imjvdn)
 
-- Protected routes with authentication guards
-- Session management with secure token storage
-- XSS protection through React's built-in escaping
-- CSRF protection via custom hooks
-- Secure HTTP headers configuration
-
-## API Integration
-
-The dashboard integrates with backend services through a RESTful API interface. All API calls are centralized in dedicated service modules with proper error handling and retry logic.
-
-## Browser Support
-
-- Chrome >= 100
-- Firefox >= 100
-- Safari >= 15
-- Edge >= 100
-
-## Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/name`)
-3. Commit changes (`git commit -am 'Add feature'`)
-4. Push branch (`git push origin feature/name`)
-5. Create Pull Request
-
-## License
-
-MIT License - This project is licensed under the MIT License.
+Project Link: [https://github.com/imjvdn/redteamtoolkit](https://github.com/imjvdn/redteamtoolkit)
