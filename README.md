@@ -50,6 +50,7 @@ src/
 ├── types/              # TypeScript declarations
 ├── utils/              # Utility functions
 └── App.tsx             # Application entry point
+```
 
 ## Development Setup
 
@@ -160,4 +161,4 @@ The dashboard integrates with backend services through a RESTful API interface. 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - This project is licensed under the MIT License.
