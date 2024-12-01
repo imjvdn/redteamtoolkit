@@ -4,29 +4,29 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/imjvdn/redteamtoolkit)
 ![GitHub License](https://img.shields.io/github/license/imjvdn/redteamtoolkit)
 
-## 🚀 Overview
+## Overview
 
 A sophisticated security analysis platform built with React and TypeScript, designed for red team operations and security assessments. This dashboard provides an integrated interface for reconnaissance, brute force operations, security monitoring, and comprehensive reporting.
 
-## ✨ Core Features
+## Core Features
 
-- 🔐 **Authentication System**
-  - Secure login and session management
-  - Role-based access control
-  - Protected routes and API endpoints
+### Authentication System
+- Secure login and session management
+- Role-based access control
+- Protected routes and API endpoints
 
-- 📊 **Dashboard Analytics**
-  - Real-time security metrics visualization
-  - Interactive data charts and graphs
-  - Custom reporting periods
+### Dashboard Analytics
+- Real-time security metrics visualization
+- Interactive data charts and graphs
+- Custom reporting periods
 
-- 🔍 **Security Tools**
-  - Reconnaissance operation management
-  - Automated brute force simulations
-  - Security event monitoring
-  - Comprehensive reporting system
+### Security Tools
+- Reconnaissance operation management
+- Automated brute force simulations
+- Security event monitoring
+- Comprehensive reporting system
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Frontend Framework**: React 18 with TypeScript
 - **State Management**: Zustand
@@ -36,7 +36,7 @@ A sophisticated security analysis platform built with React and TypeScript, desi
 - **Build Tool**: Vite
 - **Deployment**: GitHub Pages
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 src/
@@ -56,7 +56,7 @@ src/
 └── utils/              # Utility functions
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -87,7 +87,7 @@ src/
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## 🔄 Development Workflow
+## Development Workflow
 
 1. Create a new branch for your feature:
    ```bash
@@ -107,7 +107,7 @@ src/
 
 4. Create a Pull Request on GitHub
 
-## 🚀 Deployment
+## Deployment
 
 The application is automatically deployed to GitHub Pages when changes are pushed to the main branch. The deployment process:
 
@@ -115,15 +115,15 @@ The application is automatically deployed to GitHub Pages when changes are pushe
 2. Optimizes assets and generates production build
 3. Deploys to GitHub Pages using GitHub Actions
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📧 Contact
+## Contact
 
 Jadan Morrow - [@imjvdn](https://github.com/imjvdn)
 
