@@ -2,15 +2,13 @@ import React from 'react';
 import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Layout } from './components/layout/Layout';
 import { useAuthStore } from './stores/authStore';
-
-// Lazy load pages
-const Dashboard = React.lazy(() => import('./pages/Dashboard'));
-const Login = React.lazy(() => import('./pages/Login'));
-const Recon = React.lazy(() => import('./pages/Recon'));
-const BruteForce = React.lazy(() => import('./pages/BruteForce'));
-const Reports = React.lazy(() => import('./pages/Reports'));
-const Monitoring = React.lazy(() => import('./pages/Monitoring'));
-const Settings = React.lazy(() => import('./pages/Settings'));
+import Dashboard from './pages/Dashboard';
+import Login from './pages/Login';
+import Recon from './pages/Recon';
+import BruteForce from './pages/BruteForce';
+import Reports from './pages/Reports';
+import Monitoring from './pages/Monitoring';
+import Settings from './pages/Settings';
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { isAuthenticated } = useAuthStore();
